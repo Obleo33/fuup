@@ -1,0 +1,144 @@
+body {
+  background-color : white;
+  font-family      : 'Open Sans',
+                     sans-serif;
+}
+
+.navigation {
+  display          : flex;
+  background-color : #4F6367;
+  align-items      : center;
+  justify-content  : space-around;
+}
+
+.profile-img {
+  width  : 122px;
+  height : 70px;
+}
+
+.link-section {
+  padding     : 30px;
+  color       : white;
+  font-size   : 15px;
+  font-weight : 300;
+}
+
+.link-section:hover {
+  background-color : #7A9E9F;
+}
+
+.search-input {
+  width         : 150px;
+  height        : 25px;
+  border        : none;
+  border-radius : 2px;
+}
+
+.circle-img {
+  width  : 250px;
+  height : 250px;
+}
+
+.stat-img {
+  width  : 55px;
+  height : 200px;
+}
+
+.nums {
+  margin-bottom : 10px;
+  font-weight   : 300;
+}
+
+p {
+  margin-bottom : 10px;
+  font-size     : 12px;
+  font-weight   : bold;
+}
+
+.stats {
+  display         : flex;
+  margin          : 21px;
+  align-items     : center;
+  justify-content : space-between;
+}
+
+.stat-bar-img {
+  width         : 200px;
+  margin-bottom : 20px;
+}
+
+.scrolling-img {
+  width  : 200px;
+  height : 200px;
+}
+
+.activity-feed-title {
+  padding          : 5px;
+  color            : white;
+  background-color : #4F6367;
+  text-align       : center;
+  font-weight      : 300;
+}
+
+.activity-feed {
+  display          : flex;
+  padding          : 20px;
+  background-color : #7A9E9F;
+}
+
+.celebrity-stats,
+.user-section {
+  width       : 50%;
+  margin-left : 40px;
+}
+
+.celebrity-stats {
+  border-right : solid #4F6367;
+}
+
+.celeb-map-img {
+  position    : absolute;
+  width       : 122px;
+  height      : 70px;
+  margin-left : 200px;
+}
+
+.celeb-map-two {
+  position    : absolute;
+  width       : 122px;
+  height      : 70px;
+  margin-left : 200px;
+}
+
+.user-map-img {
+  position    : absolute;
+  width       : 122px;
+  height      : 70px;
+  margin-left : 200px;
+}
+
+.user-map-two {
+  position    : absolute;
+  width       : 122px;
+  height      : 70px;
+  margin-left : 200px;
+}
+
+.calendar {
+  display         : flex;
+  justify-content : space-around;
+}
+
+.calendar-img {
+  width         : 400px;
+  height        : 150px;
+  margin-top    : 10px;
+  margin-bottom : 30px;
+}
+
+.google-app-img {
+  width         : 200px;
+  height        : 150px;
+  margin-top    : 10px;
+  margin-bottom : 30px;
+}
