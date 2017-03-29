@@ -1,56 +1,59 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/index.css">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
     <title>fuup</title>
   </head>
   <body>
 
     <div class="tracker">
       <div class="circle-tracker">
-        <h2>48</h2>
-        <p>200 miles to go!</p>
+        <div class="circle-stats">
+          <h2>48</h2>
+          <p>200 miles to go!</p>
+        </div>
       </div>
     </div>
 
     <div class="cal">
       <table>
-        <tr>
+        <tr class="days">
           <th>M</th>
           <th>T</th>
           <th>W</th>
-          <th>T</th>
+          <th class="selected-day selected">T</th>
           <th>F</th>
           <th>S</th>
           <th>S</th>
         </tr>
-        <tr>
+        <tr class="day-num">
           <td>4</td>
           <td>5</td>
           <td>6</td>
-          <td>7</td>
+          <td class="selected-num selected">7</td>
           <td>8</td>
           <td>9</td>
           <td>10</td>
         </tr>
       </table>
+      <div class='down-arrow'></div>
     </div>
 
     <div class="stats">
-      <div class="elevation">
-        <img src="" alt="">
+      <div class="elevation stat-detail">
+        <img src="images/Mobile/elevation.svg" alt="elevation icon">
         <h3>432 ft</h3>
         <p>Avg. Elevation</p>
       </div>
-      <div class="distance">
-        <img src="" alt="">
+      <div class="distance stat-detail">
+        <img src="images/Mobile/running.svg" alt="distance icon">
         <h3>8.4 m</h3>
         <p>Avg. Distance</p>
       </div>
-      <div class="time">
-        <img src="" alt="">
+      <div class="time stat-detail">
+        <img src="images/Mobile/stop-watch.svg" alt="time icon">
         <h3>8:32</h3>
         <p>Avg. Pace</p>
       </div>
