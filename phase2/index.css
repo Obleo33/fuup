@@ -66,11 +66,10 @@ body {
 
 .cal {
   display          : flex;
-  top              : 50%;
-  height           : 60px;
+  height           : 10vh;
+  padding          : 5px;
   background-color : #4E6367;
   text-align       : center;
-  align-items      : center;
   font-size        : 18px;
   flex-wrap        : wrap;
   justify-content  : center;
