@@ -1,0 +1,226 @@
+@font-face {
+  font-family : 'Open Sans',
+                sans-serif;
+  src         : url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+}
+
+body {
+  min-width   : 320;
+  max-width   : 450px;
+  font-family : 'Open Sans',
+                sans-serif;
+}
+
+.tracker {
+  text-align : center;
+}
+
+.tracker {
+  display : flex;
+  top     : 0;
+  height  : 50vh;
+}
+
+.tracker::after {
+  z-index             : -1;
+  content             : "";
+  display             : table;
+  position            : absolute;
+  top                 : 0;
+  left                : 0;
+  width               : 100%;
+  max-width           : 450px;
+  height              : 50vh;
+  clear               : both;
+  opacity             : .35;
+  background-image    : url('images/Mobile/StockSnap_EWQYYB0G5A.jpg');
+  background-repeat   : repeat;
+  background-position : center;
+  background-size     : cover;
+}
+
+.circle-tracker {
+  width               : 235px;
+  height              : 235px;
+  margin              : auto;
+  border-radius       : 50%;
+  background-image    : url('images/Mobile/circle-graph.svg');
+  background-repeat   : no-repeat;
+  background-position : center;
+  background-size     : cover;
+}
+
+.circle-stats {
+  padding-top : 30px;
+  color       : #FF5241;
+}
+
+.circle-stats h2 {
+  font-size : 128px;
+}
+
+.circle-stats p {
+  font-size   : 18px;
+  font-weight : bold;
+}
+
+.cal {
+  display          : flex;
+  top              : 50%;
+  height           : 60px;
+  background-color : #4E6367;
+  text-align       : center;
+  align-items      : center;
+  font-size        : 18px;
+  flex-wrap        : wrap;
+  justify-content  : center;
+}
+
+.cal table {
+  width : 100%;
+}
+
+.cal th {
+  height      : 20px;
+  padding-top : 3px;
+}
+
+.cal tr {
+  margin : 10px 0;
+}
+
+.cal td {
+  z-index      : 2;
+  top          : 10%;
+  width        : 14%;
+  padding-top  : 5px;
+  border-right : 1px solid #FF5241;
+  border-left  : 1px solid #FF5241;
+}
+
+.days {
+  color            : #ffffff;
+  background-color : #FF5241;
+  font-weight      : bold;
+}
+
+.day-num {
+  color       : #FF5241;
+  font-weight : lighter;
+}
+
+.day-num td:first-child {
+  border-left : none;
+}
+
+.day-num td:last-child {
+  border-right : none;
+}
+
+.selected {
+  color            : #ffffff;
+  background-color : #FF5241;
+}
+
+.selected-num {
+  z-index      : 2;
+  border-right : 2px solid #ffffff !important;
+  border-left  : 2px solid #ffffff !important;
+}
+
+.down-arrow {
+  z-index      : 3;
+  width        : 0;
+  height       : 0;
+  margin-top   : 33px position:absolute;
+  border-top   : 30px solid #FF5241;
+  border-right : 30px solid transparent;
+  border-left  : 30px solid transparent;
+}
+
+.stats {
+  display         : flex;
+  height          : 25vh;
+  color           : #FF5241;
+  justify-content : center;
+}
+
+.stats img {
+  height : 58.8px;
+}
+
+.stats h3 {
+  font-size   : 24px;
+  font-weight : bold;
+}
+
+.stats p {
+  font-size   : 8px;
+  font-weight : lighter;
+}
+
+.stat-detail {
+  height : 100px;
+  margin : auto;
+}
+
+.menu {
+  display          : flex;
+  width            : 100%;
+  height           : 15vh;
+  background-color : #4E6367;
+  align-items      : center;
+  justify-content  : center;
+}
+
+.button {
+  width   : 50px;
+  height  : 50px;
+  margin  : auto;
+  padding : 0;
+  border  : none;
+  cursor  : pointer;
+}
+
+.person-button {
+  background-image    : url('images/Mobile/avatar (1).png');
+  background-color    : transparent;
+  background-repeat   : no-repeat;
+  background-position : center;
+  background-size     : cover;
+}
+
+.friend-button {
+  background-image    : url('images/Mobile/users (1).png');
+  background-color    : transparent;
+  background-repeat   : no-repeat;
+  background-position : center;
+  background-size     : cover;
+}
+
+.start-button {
+  width            : 70px;
+  height           : 70px;
+  color            : #ffffff;
+  border           : 2px solid #ffffff;
+  border-radius    : 35px;
+  background-color : #FF5241;
+  font-size        : 20px;
+  font-weight      : lighter;
+}
+
+.heart-button {
+  background-image    : url('images/Mobile/cardiogram (1).png');
+  background-color    : transparent;
+  background-repeat   : no-repeat;
+  background-position : center;
+  background-size     : cover;
+}
+
+.settings-button {
+  background-image    : url('images/Mobile/settings (1).png');
+  background-color    : transparent;
+  background-repeat   : no-repeat;
+  background-position : center;
+  background-size     : cover;
+}
